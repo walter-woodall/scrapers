@@ -20,7 +20,7 @@ class Product(DeclarativeBase):
 
 	id = Column(Integer, primary_key=True)
 	name = Column('name', String)
-	price = Column('price', String)
+	price = Column('price', Float)
 	category = Column('category', String)
 	subcategory = Column('subcategory', String)
 	image_url = Column('image_url', String)

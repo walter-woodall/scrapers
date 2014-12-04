@@ -8,7 +8,6 @@ class WalmartScraperPipeline(object):
 		self.Session = sessionmaker(bind=engine)
 
 	def process_item(self, item, spider):
-		print 'in the pipeline'
 		session = self.Session()
 		product = Product(**item)
 
