@@ -12,8 +12,8 @@ class GroceryItem(scrapy.Item):
     # define the fields for your item here like:
     name = scrapy.Field()
     category = scrapy.Field()
+    subcategory = scrapy.Field()
     price = scrapy.Field()
-    ASIN = scrapy.Field()
-    bigImage = scrapy.Field()
+    image_url = scrapy.Field()
     url = scrapy.Field()
     pass
