@@ -16,4 +16,5 @@ class GroceryItem(scrapy.Item):
     price = scrapy.Field()
     image_url = scrapy.Field()
     url = scrapy.Field()
+    store_id = scrapy.Field()
     pass

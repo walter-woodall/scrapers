@@ -21,9 +21,9 @@ DATABASE = {'drivername' : 'mysql+mysqlconnector',
 			'database' : 'banana_now'
 }
 
-# ITEM_PIPELINES = {
-#     'amznfrsh.pipelines.AmznfrshPipeline': 300,
-# }
+ITEM_PIPELINES = {
+    'amznfrsh.pipelines.AmznfrshPipeline': 300,
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'amznfrsh (+http://www.yourdomain.com)'

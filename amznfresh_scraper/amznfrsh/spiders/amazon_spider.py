@@ -83,6 +83,7 @@ class AmazonSpider(scrapy.Spider):
                 item['url'] = url
                 item['price'] = price
                 item['image_url'] = img
+                item['store_id'] = 2 # for the database, AmazonFresh is the second store.
                 yield item
             except IndexError:
                 continue

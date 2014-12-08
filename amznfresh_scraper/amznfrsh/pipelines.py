@@ -8,9 +8,6 @@ from sqlalchemy.orm import sessionmaker
 from models import Product, db_connect, create_product_table
 
 class AmznfrshPipeline(object):
-    def process_item(self, item, spider):
-        return item
-
 
 	def __init__(self):
 		engine = db_connect()

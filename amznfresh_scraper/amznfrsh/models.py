@@ -25,3 +25,4 @@ class Product(DeclarativeBase):
 	subcategory = Column('subcategory', String)
 	image_url = Column('image_url', String)
 	url = Column('url', String)
+	store_id = Column('store_id', String)
